@@ -1,0 +1,114 @@
+#game{
+    text-align: center;
+    align-content: center;
+}
+.btn{
+    background-color: lightsteelblue;
+    border: solid;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: medium;
+    margin: 1%;
+    border-radius: 12px;
+    border-color: aliceblue;
+}/*
+.question{
+    background-color: steelblue;
+    color: aliceblue;
+    border: solid;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: medium;
+    margin: 1%;
+    border-radius: 50%;
+    border-color: aliceblue;
+}*/
+.starttext{
+    color: rgb(51, 96, 133);
+}
+
+body{
+   /* background-color: rgb(250, 255, 255);*/
+   background-image: url('backgroundimage.jpg');
+   background-size: cover; /*denna funkar i helskärm men blir b
+   ttre utan på en mindre skärm*/
+   background-repeat: no-repeat;
+  
+}
+#grid{
+    text-align: center;
+    align-content: center;
+    padding: 55px 0;
+
+ 
+}
+#text{
+    font-size: larger;
+    border-bottom: solid;
+    border-color: lightsteelblue; 
+}
+
+
+#startAgain{
+    display: none;
+    margin-left: 45%;
+}
+
+/*for mobile phones*/
+.memoryimg{
+    width: 25%;
+  }
+  #memorygrid{
+    height: 100px;
+    width: 460px;
+   /* margin-left: 28%;
+    margin-right: 28%;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.memoryimgtwo{
+    width: 50%;
+}
+
+/*for tablets*/
+@media screen and (min-width: 600px){
+    .memoryimg{
+        width: 25%;
+      }
+      #memorygrid{
+        height: 100px;
+        width: 480px;
+       /* margin-left: 28%;
+        margin-right: 28%;*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+   }
+   .memoryimgtwo{
+    width: 50%;
+  }
+
+}
+/*for desktops*/
+@media screen and (min-width: 768px){
+    .memoryimg{
+        width: 25%;
+      }
+    #memorygrid{
+        height: 100px;
+        width: 500px;
+       /* margin-left: 28%;
+        margin-right: 28%;*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+   }
+   .memoryimgtwo{
+    width: 50%;
+  }
+}

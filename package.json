@@ -1,0 +1,15 @@
+{
+  "name": "memory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-snowpack-app": "^1.10.0"
+  }, 
+"scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+}
+}

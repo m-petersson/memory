@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Starter Snowpack App" />
+    <title>Starter Snowpack App</title>
+  </head>
+  <body>
+    <div id="game">
+        <h1 class="starttext" id="memorytext">Memory game</h1>
+        <h3 class="starttext"id="welcome">Welcome!</h3>
+        <p class="starttext"id ="text">Choose your grid size, and then choose the difficulty level</p>
+        <div id ="grid">
+            <div id="gridSize">
+                <input class="btn"id="fourXfour" type="button" value="4 x 4">
+                <input class="btn"id="twoXfour" type="button" value="2 x 4">
+                <input class="btn"id="twoXtwo" type="button" value="2 x 2">
+            </div>
+            <div id="difficultLevel">
+                <input class="btn"id="easyButton" type="button" value="Easy">
+                <input class="btn"id="middleButton" type="button" value="Middle">
+                <input class="btn"id="hardButton" type="button" value="Hard">
+             <!-- <input class="question"id="question" type="button" value="?">-->  
+            </div>
+            <!-- <input class="btn"id="startAgain" type="button" value="Play again">-->
+            <div id="memorygrid"></div> 
+        </div>
+        <input class="btn"id="startAgain" type="button" value="Play again">
+    </div>
+    <script type="module" src="src/memory.js">
+    </script>
+  </body>
+</html>
