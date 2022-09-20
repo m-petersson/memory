@@ -27,16 +27,24 @@
     border-radius: 50%;
     border-color: aliceblue;
 }*/
+#memorytext{
+    font-size: 2em;
+    font-weight: 700;
+}
 .starttext{
     color: rgb(51, 96, 133);
+    font-size: 1em;
+	font-weight: 200;
+	letter-spacing: 0.08em;
+	line-height: 1;
+    font-family: Raleway, Helvetica, sans-serif;
+		
+    
 }
 
 body{
-   /* background-color: rgb(250, 255, 255);*/
+   
    background-image: url('backgroundimage.jpg');
-   background-size: cover; /*denna funkar i helskärm men blir b
-   ttre utan på en mindre skärm*/
-   background-repeat: no-repeat;
   
 }
 #grid{
@@ -47,10 +55,16 @@ body{
  
 }
 #text{
+    border-bottom: solid;
+    border-color: lightsteelblue; 
+
+}
+/*#text{
     font-size: larger;
     border-bottom: solid;
     border-color: lightsteelblue; 
-}
+}*/
+
 
 
 #startAgain{
@@ -111,4 +125,12 @@ body{
    .memoryimgtwo{
     width: 50%;
   }
+  body{
+    /* background-color: rgb(250, 255, 255);*/
+    background-image: url('backgroundimage.jpg');
+    background-size: cover; /*denna funkar i helskärm men blir b
+    ttre utan på en mindre skärm*/
+    background-repeat: no-repeat;
+   
+ }
 }
