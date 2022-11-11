@@ -7,6 +7,10 @@ A memory game with a choice of three different grid sizes, 16 images, 8 images, 
 
 ![memimg2](https://user-images.githubusercontent.com/112863208/191276107-f17d96aa-ade0-498b-b5b9-3aa7f5281369.png)
 
+![memimg3](https://user-images.githubusercontent.com/112863208/201318738-0f48eb6f-a681-4c57-91ec-60b294a9ffba.png)
+
+![memimg4](https://user-images.githubusercontent.com/112863208/201318766-c7fecfb6-b238-4b41-9f44-5a8d560cc6bc.png)
+
 To be able to run the app node (and npm) has to be installed.
 
 Available Scripts
