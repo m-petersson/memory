@@ -9,6 +9,8 @@ A memory game with a choice of three different grid sizes, 16 images, 8 images, 
 
 ![memimg3](https://user-images.githubusercontent.com/112863208/201318738-0f48eb6f-a681-4c57-91ec-60b294a9ffba.png)
 
+![memimg5](https://user-images.githubusercontent.com/112863208/201319007-49f08812-c847-4930-b999-309caf538a29.png)
+
 ![memimg4](https://user-images.githubusercontent.com/112863208/201318766-c7fecfb6-b238-4b41-9f44-5a8d560cc6bc.png)
 
 To be able to run the app node (and npm) has to be installed.
